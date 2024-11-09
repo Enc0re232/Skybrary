@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mega"
+version = "0.1.0"
+description = ""
+authors = ["Motya <fut4dbd@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiohttp = "^3.9.3"
+crypto = "^1.4.1"
+aes = "^1.2.0"
+pycryptodome = "^3.20.0"
+pycryptodomex = "^3.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
